@@ -44,7 +44,7 @@ class _QuizPageState extends State<QuizPage> {
             DialogButton(
               color: Color(0xFF218d87),
               child: Text(
-                "Cancel",
+                "Try Again",
                 style: TextStyle(color: Colors.white, fontSize: 20),
               ),
               onPressed: () => Navigator.pop(context),
@@ -98,7 +98,7 @@ class _QuizPageState extends State<QuizPage> {
                     quizbrain.getQuestiontext(),
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      fontSize: 26.0,
+                      fontSize: 23.0,
                       fontWeight: FontWeight.bold,
                       color: Color(0xFF052935),
                     ),
